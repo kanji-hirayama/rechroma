@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+body {
+  font-family: 'Noto Sans JP'"Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", "sans-serif";
+  font-size: 15px;
+  line-height: 1.5;
+  color: #333;
+}
+
+
+/*文字サイズを正しく反映させる*/
+html {
+  font-size: 100%;
+}
+
+/*画像が親要素より大きくなることを防ぐ*/
+img {
+  max-width: 100%;
+}
+
+
+.section{
+  padding: 30px, 15px;
+}
+
+.section-headline{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0 0 40px;
+}
+
+.mission-vision{
+  display: flex;
+}
+.mission-vision-caption{
+  font-size: 20px;
+  padding: 15px;
+}
+.mission-vision-image{
+  padding: 15px;
+  width: 500px;
+  height: auto;
+}
+
+/*.misson-vision-description{}*/
+.company{
+  display: flex;
+}
+.company-image{
+  padding: 15px;
+  width: 500px;
+  height: auto;
+}
+
+.company-caption{
+  font-size: 20px;
+  padding: 15px;
+}
+
+table {
+  margin: 30px;
+  font-size:15px;
+}
+
+td {
+  padding: 5px 20px;
+}
+
+table, td{
+  border: 0.5px #808080 solid;
+}
